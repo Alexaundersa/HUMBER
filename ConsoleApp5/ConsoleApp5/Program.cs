@@ -12,7 +12,7 @@ namespace ConsoleApp5
                 { adult.FirstName,adult.LastName,child.FirstName,child.LastName};
             for (int i = 0; i < adultChild.Length; i++)
             {
-                Console.WriteLine(adultChild[i]);
+                Console.Write(adultChild[i]+' ');
             }
 
         }
